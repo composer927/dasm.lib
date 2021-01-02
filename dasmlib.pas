@@ -12,7 +12,7 @@ interface
 uses
   System.Classes;
 
-//random 32 bit unsigned integer generator
+//32 bit unsigned integer generator
 function rnd(max:cardinal):Cardinal;
 //integer to ansistring/zero terminated string
 procedure itoa(src:uint64; dst:pansichar);
